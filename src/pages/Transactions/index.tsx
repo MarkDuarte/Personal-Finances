@@ -5,7 +5,7 @@ import { SearchForm } from "../../components/SearchForm";
 import { Summary } from "../../components/Summary";
 import { PriceHighlight, TransactionsContainer, TransactionsTable } from "./styles";
 import { TransactionContext } from '../../contexts/TransactionsContext'
-import { dateFormatter, priceFormatter } from "../../utils/fommater";
+import { dateFormatter, priceFormatter } from "../../utils/fomatter";
 
 export function Transactions() {
   const { transactions } = useContext(TransactionContext)
