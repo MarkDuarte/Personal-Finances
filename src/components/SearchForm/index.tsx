@@ -1,4 +1,3 @@
-import { memo } from 'react'
 import { useContextSelector } from 'use-context-selector'
 import { useForm } from 'react-hook-form'
 import * as z from 'zod'
@@ -14,7 +13,7 @@ const searchFormSchema = z.object({
 
 type SearchFormInputs = z.infer<typeof searchFormSchema>
 
-function SearchFormComponent() {
+export function SearchForm() {
   const {
     register,
     handleSubmit,
@@ -49,5 +48,3 @@ function SearchFormComponent() {
     </SearchFormContainer>
   )
 }
-
-export const SearchForm = memo(SearchFormComponent)
