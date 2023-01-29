@@ -15,6 +15,30 @@
       "category": "Alimentação",
       "price": 50,
       "createdAt": "2023-01-24T00:52:03.335Z"
+    },
+    {
+      "description": "Desenvolvimento Mobile",
+      "category": "Venda",
+      "price": 2350,
+      "type": "income",
+      "createdAt": "2023-01-29T04:09:54.217Z",
+      "id": 3
+    },
+    {
+      "description": "Conserto do Macbook",
+      "category": "Conserto",
+      "price": 1450,
+      "type": "outcome",
+      "createdAt": "2023-01-29T04:14:45.167Z",
+      "id": 4
+    },
+    {
+      "description": "Iogurte de Morango",
+      "category": "Alimentação ",
+      "price": 4,
+      "type": "outcome",
+      "createdAt": "2023-01-29T04:36:22.004Z",
+      "id": 5
     }
   ]
 }
